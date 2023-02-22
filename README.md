@@ -1,3 +1,3 @@
 # Guessgame
-Guessing number game with some cool features
-It has some cool UI features and fancy professional webdesign.
+Guessing number game. This project captues powerful javascript features that helps organize code. It will give you more ideas workig with javascript features.
+It has cool ui and professional webdesign.
