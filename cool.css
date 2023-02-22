@@ -1,0 +1,97 @@
+h1{
+	text-transform:capitalize;
+	font-style: italic;
+	text-align: left;
+	font-weight: bolder;
+}
+
+p.highlight {
+	color:#00a7ff;
+	font-size: 1.5em;
+
+	
+}
+p.trials {
+	font-weight: bold;
+	text-align: center;
+	border:#00a7ff solid thin;
+}
+ section.side  >h1{
+	font-weight: bolder;
+	font-size: 2em;
+	text-align: center;
+	vertical-align: middle;;
+}
+main{
+	display: table;
+}
+main > section {
+	display:table-cell;
+}
+section:first-child {
+	width: 30vw;
+}
+section:nth-child(2){
+	width:50vw;
+}
+section:last-child {
+	width:20vw;
+}
+table{
+border-collapse: separate;
+table-layout: auto;
+border-spacing: 0.5em 0.5em;
+
+}
+table >caption {
+	text-align: center;;
+	font-weight: bold;
+	border: #00a7ff solid thin;
+	border-left: #00a7ff solid thick;
+	border-radius: 0.5em;
+	padding: 0px
+}
+table td {
+    width: 2em;
+    height: 2em;
+    border-radius:2em;
+    text-align: center;
+    vertical-align: middle;
+    border:#00a7ff solid thin;
+
+}
+td:hover{
+
+box-shadow: 0px 0px  10px #00a7ff ;
+}
+section.win h1.number{
+ text-align: center;
+ font-size: 6em;
+ color:#00a7ff;
+
+}
+section.win p.info{
+    text-align: center;
+     color:#00a7ff;
+     font-size: 1.5em;
+
+}
+section.win{
+   position:fixed ;
+   width:60vw;
+   height: 50vh;
+   border-radius:3em;
+   left:20vw;
+   top:10vh;
+   background-color: rgba(0,0,0,0.8);
+   text-align: center;
+}
+canvas {
+border-left: #00a7ff solid thin; 
+border-bottom: #00a7ff solid thin;
+margin:0;
+
+}
+body > p{
+	margin:0;
+}
